@@ -1,0 +1,90 @@
+body { 
+    background-color: rgb(18, 139, 113);
+    background-attachment: fixed;
+}
+#coloumb-login {
+   height: 500px;
+   width: 600px;
+   margin-left: 350px; 
+   margin-top: 50px;
+}
+
+
+input[type=text], input[type=password] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+}
+
+
+button {
+   background-color: #4CAF50;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+}
+
+
+button:hover {
+   opacity: 0.8;
+}
+
+.container:hover {
+    opacity: 0.8;
+}
+#forgot-password {
+   text-decoration: none;
+}
+
+span.psw {
+   color: white;
+   float: right;
+   padding-top: 16px;
+   background-color: #f44336;
+   padding: 10px 18px;
+   margin-top: 5px;
+}
+
+
+@media screen and (max-width: 300px) {
+   span.psw {
+       display: block;
+       float: none;
+   }
+   .cancelbtn {
+       width: 100%;
+   }
+}
+
+#footer {
+   margin-top: 110px;
+   
+}
+
+#kolom {
+    border-radius: 20px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+#emaila:active {
+    border-radius: 20px;
+}
+#emaila {
+    background-color: rgb(18, 139, 113);
+    width: 350px;
+    border-radius: 20px;
+}
+#sandia {
+    background-color: rgb(18, 139, 113);
+    width: 350px;
+    border-radius: 20px;
+}
+#masuk {
+    width: 160px;
+}
